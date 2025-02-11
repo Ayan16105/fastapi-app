@@ -6,7 +6,7 @@ import random
 import os
 
 # Load environment variables
-MONGO_URI = os.getenv("MONGO_URI", "your_default_mongodb_uri")
+MONGO_URI = os.getenv("MONGO_URI", "mongodb+srv://xforce:Admin1234@smarthackathon.azjsv.mongodb.net/userDB")
 
 # Load SpaCy model (optimized for English processing)
 nlp = spacy.load("en_core_web_sm")
